@@ -10,4 +10,6 @@ RUN venv/bin/pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+VOLUME [ "/app/data/guilds.json" ]
+
 CMD ["venv/bin/python", "main.py"]
