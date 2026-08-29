@@ -10,4 +10,4 @@ RUN venv/bin/pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["../venv/bin/python", "main.py"]
+CMD ["venv/bin/python", "main.py"]
