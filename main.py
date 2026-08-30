@@ -12,6 +12,9 @@ token = config.get("token")
 
 @bot.event
 async def on_ready():
+    await bot.change_presence(
+        status=discord.Status.invisible
+    )
     print("Bot running")
 
 async def load_cogs(bot):
