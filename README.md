@@ -21,5 +21,5 @@ docker build -t bot .
 
 Запустить бота
 ```bash
-docker run -d --restart unless-stoped bot
+docker run -d --restart unless-stopped bot
 ```
